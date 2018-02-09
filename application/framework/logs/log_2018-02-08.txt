@@ -1,0 +1,18 @@
+[2018-02-08 17:13:54.716639] [info] --------==[ Step Login in VK ]==--------
+[2018-02-08 17:13:56.201749] [info] --------==[ Step Element Login Text Box sending keys ]==--------
+[2018-02-08 17:13:56.429217] [info] --------==[ Step Element Password Text Box sending keys ]==--------
+[2018-02-08 17:13:56.660299] [info] --------==[ Step Element Submit Button submit ]==--------
+[2018-02-08 17:13:56.711716] [info] --------==[ Step Go To My Page ]==--------
+[2018-02-08 17:13:59.358198] [info] --------==[ Step Element Left Menu Link clicking ]==--------
+[2018-02-08 17:13:59.501625] [info] --------==[ Step Post Record On The Wall ]==--------
+[2018-02-08 17:14:00.045104] [info] --------==[ Step Check record On The Wall ]==--------
+[2018-02-08 17:14:01.149121] [info] --------==[ Step Edit Record Text And Upload Image ]==--------
+[2018-02-08 17:14:02.231828] [info] --------==[ Step Check Record Was Changed After Updating ]==--------
+[2018-02-08 17:14:02.448937] [info] --------==[ Step Leave Comment To The Record ]==--------
+[2018-02-08 17:14:02.691484] [info] --------==[ Step Check That Comment For Record By User Is Present ]==--------
+[2018-02-08 17:14:05.269352] [info] --------==[ Step Like The Record ]==--------
+[2018-02-08 17:14:05.372978] [info] --------==[ Step Element Like Button clicking ]==--------
+[2018-02-08 17:14:05.505394] [info] --------==[ Step Check That Like Is Present ]==--------
+[2018-02-08 17:14:05.723584] [info] --------==[ Step Delete The Record ]==--------
+[2018-02-08 17:14:05.915652] [info] --------==[ Step Check That Record Was Removed ]==--------
+[2018-02-08 17:14:08.015593] [info] --------==[ Step Element Post Label is absent ]==--------
