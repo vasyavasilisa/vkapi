@@ -19,10 +19,11 @@ class Browser
         $browserType = getenv(self::ENV_NAME_BROWSER_TYPE);
         self::$host = $GLOBALS["serverHostLocal"];
         $isRemote = getenv("isRemote");
-        TestCase::assertTrue(False, "isRemote=" . $isRemote);
-        if( $isRemote == True){
+
+        if( $isRemote == true){
         self::$host = $GLOBALS["serverHostVM"];
         }
+        TestCase::assertTrue(False, "serverHost=" . self::$host);
         switch ($browserType) {
             case "chrome":
                 {
