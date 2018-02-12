@@ -20,7 +20,7 @@ class Browser
         self::$host = $GLOBALS["serverHostLocal"];
         $isRemote = getenv("isRemote");
 
-        if($isRemote){
+        if($isRemote == 1){
         self::$host = $GLOBALS["serverHostVM"];
         }
         switch ($browserType) {
