@@ -25,7 +25,7 @@ class Browser
 //        else{
 //            self::$host = "http://localhost:4444/wd/hub";
 //        }
-        self::$host = getenv($GLOBALS["serverHost"]);
+        self::$host = "http://172.19.0.150:4444/wd/hub"; //getenv($GLOBALS["serverHost"]);
         switch ($browserType) {
             case "chrome":
                 {
