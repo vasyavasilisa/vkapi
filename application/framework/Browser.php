@@ -20,7 +20,7 @@ class Browser
         self::$host = $GLOBALS["serverHostLocal"];
         $isRemote = getenv("isRemote");
 
-        if( $isRemote == true){
+        if( $isRemote === true){
         self::$host = $GLOBALS["serverHostVM"];
         TestCase::assertTrue(False, "serverHost=" . self::$host);
 
