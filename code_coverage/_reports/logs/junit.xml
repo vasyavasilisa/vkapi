@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="application/tests" tests="1" assertions="11" errors="0" failures="0" skipped="0" time="24.805447">
+    <testsuite name="Application\Framework\Tests\VKTest" file="E:\PHP\vkapi\application\tests\VKTest.php" tests="1" assertions="11" errors="0" failures="0" skipped="0" time="24.805447">
+      <testcase name="xTest" class="Application\Framework\Tests\VKTest" classname="Application.Framework.Tests.VKTest" file="E:\PHP\vkapi\application\tests\VKTest.php" line="16" assertions="11" time="24.805447"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
