@@ -16,14 +16,12 @@ class Browser
 
     public static function getMyDriver()
     {
-        $browserType = getenv(self::ENV_NAME_BROWSER_TYPE);
+        $browserType = getenv("browser");  //getenv(self::ENV_NAME_BROWSER_TYPE);
         self::$host = $GLOBALS["serverHostLocal"];
         $isRemote = getenv("isRemote");
 
-        if( $isRemote === true){
+        if( $isRemote === TRUE){
         self::$host = $GLOBALS["serverHostVM"];
-        TestCase::assertTrue(False, "serverHost=" . self::$host);
-
         }
         switch ($browserType) {
             case "chrome":
