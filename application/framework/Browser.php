@@ -22,8 +22,9 @@ class Browser
 
         if( $isRemote == true){
         self::$host = $GLOBALS["serverHostVM"];
-        }
         TestCase::assertTrue(False, "serverHost=" . self::$host);
+
+        }
         switch ($browserType) {
             case "chrome":
                 {
