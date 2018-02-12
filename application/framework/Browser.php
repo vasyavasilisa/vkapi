@@ -17,15 +17,12 @@ class Browser
     public static function getMyDriver()
     {
         $browserType = getenv(self::ENV_NAME_BROWSER_TYPE);
-//        $isRemote = getenv("isRemote"); //$GLOBALS["serverHost"];
-//        TestCase::assertTrue($isRemote, "isRemote=" . $isRemote);
-//        if( $isRemote == True){
-//        self::$host = $GLOBALS["serverHost"];
-//        }
-//        else{
-//            self::$host = "http://localhost:4444/wd/hub";
-//        }
-        self::$host = "http://172.19.0.150:4444/wd/hub"; //getenv($GLOBALS["serverHost"]);
+        self::$host = $GLOBALS["serverHostLocal"];
+        $isRemote = getenv("isRemote");
+        TestCase::assertTrue($isRemote, "isRemote=" . $isRemote);
+        if( $isRemote == True){
+        self::$host = $GLOBALS["serverHostVM"];
+        }
         switch ($browserType) {
             case "chrome":
                 {

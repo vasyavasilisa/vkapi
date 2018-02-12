@@ -1,3 +1,1 @@
-Application\Framework\Tests\VK
- [x] X test
 
