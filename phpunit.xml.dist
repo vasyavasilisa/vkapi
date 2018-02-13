@@ -34,7 +34,7 @@
         <var name="password" value='PuV6j_.2&amp;$m9h?UY'/>
         <var name="token" value='904da13c62ef685c2d17cdd3f3fb8430dcb1e6f23311809ba5b79e18fa4e97334dc30da82610f31b575ba'/>
         <var name="url" value="https://vk.com/"/>
-        <var name="serverHostLocal" value="http://172.19.0.150:4444/wd/hub"/>
+        <var name="serverHostLocal" value="http://localhost:4444/wd/hub"/>
         <var name="serverHostVM" value="http://192.168.225.101:4444/wd/hub"/>
     </php>
 

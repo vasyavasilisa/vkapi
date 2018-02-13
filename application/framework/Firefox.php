@@ -15,7 +15,7 @@ class Firefox extends Browser{
     public static function getInstance(){
 
         if (self::$firefoxDriver == null)
-            self::$firefoxDriver = RemoteWebDriver::create(parent::$host, DesiredCapabilities::firefox());
+            self::$firefoxDriver = RemoteWebDriver::create(parent::$host, DesiredCapabilities::firefox(), 5000, 5000);
         return self::$firefoxDriver;
     }
 }

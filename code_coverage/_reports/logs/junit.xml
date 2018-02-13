@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="application/tests" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.000000">
-    <testsuite name="Application\Framework\Tests\VKTest" file="E:\PHP\vkapi\application\tests\VKTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.000000">
-      <testcase name="Application\Framework\Tests\VKTest" time="0.000000">
-        <error type="Facebook\WebDriver\Exception\WebDriverCurlException">Application\Framework\Tests\VKTest
-Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"desiredCapabilities":{"browserName":"chrome","platform":"ANY"}}
+  <testsuite name="application/tests" tests="1" assertions="7" errors="0" failures="1" skipped="0" time="32.140999">
+    <testsuite name="Application\Framework\Tests\VKTest" file="E:\PHP\vkapi\application\tests\VKTest.php" tests="1" assertions="7" errors="0" failures="1" skipped="0" time="32.140999">
+      <testcase name="xTest" class="Application\Framework\Tests\VKTest" classname="Application.Framework.Tests.VKTest" file="E:\PHP\vkapi\application\tests\VKTest.php" line="16" assertions="7" time="32.140999">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Application\Framework\Tests\VKTest::xTest
+Element Post's text Label is absent
+Failed asserting that false is true.
 
-&lt;url&gt; malformed
-
-E:\PHP\vkapi\vendor\facebook\webdriver\lib\Remote\HttpCommandExecutor.php:286
-E:\PHP\vkapi\vendor\facebook\webdriver\lib\Remote\RemoteWebDriver.php:126
-E:\PHP\vkapi\application\framework\Chrome.php:18
-E:\PHP\vkapi\application\framework\Browser.php:32
-E:\PHP\vkapi\application\framework\baseTest.php:22
-E:\PHP\vkapi\application\framework\baseTest.php:30
-</error>
+E:\PHP\vkapi\application\framework\BaseElement.php:64
+E:\PHP\vkapi\application\framework\BaseElement.php:96
+E:\PHP\vkapi\application\forms\VKMyPageForm.php:41
+E:\PHP\vkapi\application\tests\VKTest.php:47
+E:\PHP\vkapi\application\framework\baseTest.php:17
+</failure>
       </testcase>
     </testsuite>
   </testsuite>
