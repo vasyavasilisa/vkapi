@@ -8,8 +8,6 @@ use Application\Framework\Browser;
 /**
  * Class Firefox
  */
-
-
 class Firefox extends Browser{
 
     private static $firefoxDriver = null;
