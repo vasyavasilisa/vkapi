@@ -15,7 +15,7 @@ class VKMyPageForm extends BaseForm
     private static $postMessageLblLoc = "//div[contains(@class , 'wall_post_text') and text()='%s']";
     private static $imageInkLoc = "//a[contains(@href, '%s')]";
     private static $commentLblLoc = "//div[contains(@id, '%s_%s')]//div[@class='wall_reply_text' and text() = '%s']";
-    private static $likeBtnLoc = "//*[contains(@class,'post_like_icon')]";
+    private static $likeBtnLoc = "//*[contains(@class,'like_button_icon')]";
     private static $avatarImgLoc = "//*[contains(@class, 'page_avatar_img')]";
 
 
