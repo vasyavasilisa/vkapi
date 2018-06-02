@@ -38,7 +38,7 @@ abstract class BaseTest extends TestCase
      */
     public static function after()
     {
-        // self::getBrowser()->close();
+         self::getBrowser()->close();
     }
 
     public function logStep($stepText){
