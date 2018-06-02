@@ -35,7 +35,7 @@
         <var name="token" value='904da13c62ef685c2d17cdd3f3fb8430dcb1e6f23311809ba5b79e18fa4e97334dc30da82610f31b575ba'/>
         <var name="url" value="https://vk.com/"/>
         <var name="serverHostLocal" value="http://localhost:4444/wd/hub"/>
-        <var name="serverHostVM" value="http://10.0.2.15:5555/wd/hub"/>
+        <var name="serverHostVM" value="http://10.0.2.15:4444/wd/hub"/>
     </php>
 
 </phpunit>
